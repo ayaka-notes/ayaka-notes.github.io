@@ -1,0 +1,13 @@
+.MyAvatar:hover{
+    transform: rotate(360deg); /* 鼠标悬停时旋转 */
+}
+
+.MyAvatar{
+    width: 5vh;
+    height: 5vh;
+    /* height: 150px; */
+    border-radius: 50%;
+    transition: transform 0.5s; /* 添加过渡效果 */
+    margin: 0;
+    padding: 0;
+}

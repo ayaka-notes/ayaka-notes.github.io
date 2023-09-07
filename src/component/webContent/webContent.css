@@ -1,0 +1,13 @@
+.webcontent{
+    padding: 0 20px;
+    min-width: 310px;
+    min-height: 84vh;
+}
+
+.site-content{
+    min-height: 78vh;
+    min-width: 250px;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    padding: 25px 30px;
+}

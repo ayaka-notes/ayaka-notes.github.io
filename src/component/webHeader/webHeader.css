@@ -1,0 +1,47 @@
+.webheader {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    background-color: #414C86;
+    /* 黑色主题 */
+    /* background-color: #001628; */
+}
+
+.webheader_logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    line-height: 8vh !important;
+    /* 让元素垂直居中 */
+    display: flex;
+    align-items: center;
+    font: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+
+
+.webheader_menu {
+    line-height: 8vh !important;
+    background-color: hsl(230, 35%, 39%, 0.5);
+
+    z-index: 5;
+    /* width: */
+    min-width: 130px;
+    color: #fff;
+}
+
+.webheader_right {
+    background-image: url("@/assets/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+    height: 8vh;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+    /* z-index: 10; */
+}
