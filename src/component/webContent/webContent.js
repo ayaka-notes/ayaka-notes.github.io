@@ -1,21 +1,21 @@
 import React from "react";
 import { Layout, theme } from "antd";
-import { Input, Space, Select } from 'antd';
+// import { Input, Space, Select } from 'antd';
 import "./webContent.css";
 
 const { Content } = Layout;
-const { Search } = Input;
+// const { Search } = Input;
 
-const options = [
-    {
-        value: 'baidu',
-        label: '百度',
-    },
-    {
-        value: 'google',
-        label: '谷歌',
-    },
-];
+// const options = [
+//     {
+//         value: 'baidu',
+//         label: '百度',
+//     },
+//     {
+//         value: 'google',
+//         label: '谷歌',
+//     },
+// ];
 
 
 const WebContent = (props) => {

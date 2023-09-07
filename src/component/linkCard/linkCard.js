@@ -1,9 +1,8 @@
 import React from "react";
-import { Button, Typography,Avatar } from "antd";
-import { Card, List } from 'antd';
+import { Button,Avatar, Card } from "antd";
 import './linkCard.css';
 
-const { Paragraph } = Typography;
+
 const { Meta } = Card;
 
 const LinkCard = (props) => {
