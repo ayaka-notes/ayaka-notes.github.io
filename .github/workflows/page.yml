@@ -61,10 +61,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'  # 指定所需的 Node.js 版本
-      # 替换掉docusaurus.config.js中的baseurl
-      - name: config
-        run: |
-          sed -i "s/baseUrl: '\/'/baseUrl: '\/${{ github.event.repository.name }}\/'/g" docusaurus.config.js 
       - name: Build Page
         run: |
           npm install
